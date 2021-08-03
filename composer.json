@@ -10,10 +10,11 @@
     "require": {
         "php": "^7.1.3",
         "composer/installers": "^1.9.0",
-        "php-amqplib/php-amqplib": "^2.12.1",
+        "php-amqplib/php-amqplib": "^3.0.0",
         "psr/log": "^1.1.3"
     },
     "extra": {
-        "installer-name": "rabbitmq"
+        "installer-name": "rabbitmq",
+        "bitrix-dir": "../../local"
     }
 }
