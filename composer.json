@@ -14,7 +14,9 @@
         "psr/log": "^1.1.3"
     },
     "extra": {
-        "installer-name": "rabbitmq",
-        "bitrix-dir": "../../local"
+        "installer-name": "rabbitmq"
+    },
+    "scripts": {
+        "post-update-cmd": "php installer.php"
     }
 }
